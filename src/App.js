@@ -29,7 +29,7 @@ class App extends Component {
 
       for (let index = 0; index < this.state.listings.length; index++) {  
         this.setState({
-          venues: this.state.venues.push(this.state.listings[index].venue)
+          venues: this.state.venues.concat(this.state.listings[index])
         })     
       }
   }
