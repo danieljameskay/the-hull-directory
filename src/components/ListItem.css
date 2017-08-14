@@ -1,0 +1,54 @@
+h3 {
+    font-family: 'Josefin Sans', sans-serif; 
+    font-weight: bold;
+    color:#2c2c2c;
+}
+
+h4 {
+    font-family: 'Josefin Sans', sans-serif; 
+    font-weight: bold;
+    color:#2c2c2c;
+}
+
+h5 {
+    font-family: 'Josefin Sans', sans-serif; 
+    color: #6e6e6e;
+}
+
+p {
+    font-family: 'Josefin Sans', sans-serif; 
+    color:#2c2c2c;
+}
+
+.name {
+    margin-top: 8px;
+    margin-bottom: 7px;
+}
+
+.address {
+    margin-top: 8px;
+    margin-bottom: 7px;
+}
+
+.category {
+    margin-top: 0px;
+    margin-bottom: 7px;
+    clear: left;
+}
+
+.currency {
+    margin-top: 0px;
+    margin-bottom: 16px;
+}
+
+.rating {
+    margin-top: 0px;
+}
+
+.list-item-info {
+    padding-left: 3px;
+}
+
+.list-item-image {
+    margin-top: 10px;
+}
