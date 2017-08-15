@@ -4,8 +4,6 @@ import './ListContainer.css';
 
 const ListContainer = ({listings}) => {
 
-    console.log(listings);
-
     // TODO: Set up some logic for a spinner to display whilst the data is being loaded.
     if(listings){
         

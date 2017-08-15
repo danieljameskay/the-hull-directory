@@ -1,10 +1,11 @@
 import React from 'react'
+import history from '../history.js';
 
-const Detail = (listing) => {
-    console.log(listing)
+const Detail = (venue) => {
+
     return(
         <div className='col-xs-12'>
-
+            <h1>{venue.detail.name}</h1>
         </div>
     )
 }
