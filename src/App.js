@@ -48,10 +48,4 @@ class App extends Component {
   }
 }
 
-// console.log(history.location);
-
-// const unlisten = history.listen((location, action) => {
-//   console.log(action, location.pathname, location.state)
-// })
-
 export default App;
