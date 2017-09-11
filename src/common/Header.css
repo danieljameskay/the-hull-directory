@@ -1,7 +1,9 @@
 #header-text{
-    font-family: 'Amatic SC', cursive; 
-    margin-top: 6px;
+    /* font-family: 'Amatic SC', cursive;  */
+    font-family: 'Josefin Slab', sans-serif; 
+    /* margin-bottom: 20px; */
     padding-bottom: 13px;
     border-bottom: 1px solid gainsboro;
     font-size: 4em;
+    color: #000a12;
 }

@@ -1,8 +1,8 @@
 import React from 'react';
-import './ListItem.css';
-import { Link } from 'react-router-dom'
+import './LocationItem.css';
+import { Link, withRouter } from 'react-router-dom'
 
-const ListItem = (listItem) => {
+const LocationItem = (listItem) => {
 
     const { venue } = listItem;
 
@@ -15,13 +15,12 @@ const ListItem = (listItem) => {
                 {<img className="list-item-image img-thumbnail img-responsive" alt="abc" src={imageUrl}/>}
             </Link>
             <div className="list-item-info">
-                <h3 className="name">{venue.name}</h3>
-                <h4 className="address">{venue.location.address}</h4>
-                <h5 className="category">{venue.categories[0].name}</h5>          
-                <h5 className="rating">Rating: {venue.rating}</h5>
+                <h3 id="list-item-name">{venue.name}</h3>
+                <h5 id="list-item-category">{venue.categories[0].name}</h5>          
+                <h5 id="list-item-rating">Rating: {venue.rating}</h5>
             </div>
         </div>
     )
 }
 
-export default ListItem
+export default withRouter(LocationItem)

@@ -1,0 +1,68 @@
+#location-detail-header {
+    
+}
+
+#location-name {
+    font-family: 'Josefin Slab', sans-serif;
+    font-size: 3em;
+    color: #000a12;
+    margin-bottom: 7px;
+}
+
+#location-rating {
+    /* font-family: 'Josefin Slab', sans-serif; */
+    font-size: 1.5em;
+    color: #000a12;
+}
+
+#location-address {
+    font-family: 'Raleway', sans-serif;
+    line-height: 26px;
+    color: #000a12;
+    margin-right: 5px;
+}
+
+#location-locality {
+    font-family: 'Raleway', sans-serif;
+}
+
+#location-currency {
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: 'Raleway', sans-serif;
+    border-left: 1px solid #9a9a9a;
+}
+
+#location-url {
+    padding-left: 5px;
+    padding-right: 5px;
+    border-left: 1px solid #9a9a9a;
+    font-family: 'Raleway', sans-serif;
+    display: inline;
+}
+
+#contact-details {
+    margin-top: 8px;
+}
+
+#twitter {
+    margin-top: 7px;
+    margin-right: 10px;
+    font-family: 'Raleway', sans-serif;
+    color: #000a12;
+} 
+
+#phone {
+    margin-top: 7px;
+    margin-right: 10px;
+    font-family: 'Raleway', sans-serif;
+    color: #000a12;
+} 
+
+#twitter-icon {
+    margin-right: 3px;
+}
+
+#phone-icon {
+    margin-right: 9px;
+}

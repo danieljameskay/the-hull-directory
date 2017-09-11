@@ -4,15 +4,14 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import history from './history.js';
 // import logo from './logo.svg';
 import Header from './common/Header';
-import ListContainer from './components/ListContainer';
-import Detail from './components/Detail';
+import LocationContainer from './components/LocationContainer';
+import LocationDetail from './components/LocationDetail';
 import './App.css';
 
 class App extends Component {
   
   constructor(props){
-    super(props)
-    
+    super(props)    
     this.state = {
       listings : [],
       venues: []
@@ -39,8 +38,8 @@ class App extends Component {
         <div className="App">
           <div className="container-fluid">
             <Header/>
-            <Route exact path='/' render ={() => (<ListContainer listings = {this.state.listings}/>)}/>
-            <Route path='/detail/:id' render={({match}) => (<Detail detail={this.state.venues.find(venue => venue.id === match.params.id)}/>)}/>
+            <Route exact path='/' render ={() => (<LocationContainer listings = {this.state.listings}/>)}/>
+            <Route path='/detail/:id' render={({match}) => (<LocationDetail detail={this.state.venues.find(venue => venue.id === match.params.id)}/>)}/>
           </div>
         </div>
       </Router>

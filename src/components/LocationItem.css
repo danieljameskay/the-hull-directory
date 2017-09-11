@@ -1,0 +1,34 @@
+.list-item-info {
+    padding-left: 3px;
+}
+
+#list-item-name {
+    font-family: 'Josefin Slab', sans-serif; 
+    font-weight: bold;
+    color:#2c2c2c;
+    margin-top: 8px;
+    margin-bottom: 7px;
+}
+
+#list-item-rating {
+    font-family: 'Josefin Sans', sans-serif; 
+    color: #6e6e6e;
+}
+
+#list-item-category {
+    font-family: 'Josefin Sans', sans-serif; 
+    color: #6e6e6e;
+    margin-top: 0px;
+    margin-bottom: 7px;
+    clear: left;
+}
+
+.list-item-image {
+    margin-top: 10px;
+}
+
+/* p {
+    font-family: 'Josefin Sans', sans-serif; 
+    color:#2c2c2c;
+} */
+
