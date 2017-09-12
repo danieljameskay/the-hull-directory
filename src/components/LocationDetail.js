@@ -47,3 +47,4 @@ const LocationDetail = (venue) => {
 
 export default LocationDetail
 
+
